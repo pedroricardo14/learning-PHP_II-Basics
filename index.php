@@ -13,7 +13,7 @@ function nome_da_funcao($variavel_oculta){
     $variavel_oculta = 'segredo';
     // abaixo vamos chamar o globals
     $GLOBALS['variavel_oculta'] = $variavel_oculta;
-    // a globals está recebendo definida para ter o mesmo nome da função que iremos chamar
+    // a globals está sendo definida para ter o mesmo nome da função que iremos chamar
     //para facilitar (quando chamarmos a função variavel_oculta, estaremos também
     // chamando a globals) e está recebendo mesmo valor da $variavel_oculta.
 }
