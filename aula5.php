@@ -20,3 +20,8 @@ $arquivo = fopen('texto.txt', 'r');
 while (($linha = fgets($arquivo, 4096)) !== false){
     echo $linha;
 }
+
+// Agora é só rodar esse código no servidor e pronto! Vai ter funcionado.
+// Lembre-se de deixar o arquivo e o código no mesmo diretório se for usar
+// esse mesmo código. 
+// Obrigado por acompanhar e até a próxima!
